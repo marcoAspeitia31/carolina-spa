@@ -33,3 +33,30 @@
 .social-icons ul li a[href*="youtube.com"]::before{
     content: '\f16a';
 }
+
+/* Navigation Menu */
+.navigation{
+    background-color: #44f0b6;
+}
+
+.navbar-light .navbar-toggler{
+    background-color: #ffffff;
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover{
+    color: #ffffff;
+}
+.main-nav{
+    background-image: url(../img/border_horizontal.png), url(../img/border_horizontal.png);
+    background-repeat: repeat-x;
+    background-position: 0 top, 0 bottom;
+}
+.nav-link{
+    color: #ffffff;
+    font-size: 1.4rem;
+    transition: background-color .3s ease-in-out;
+}
+.nav-link:hover{
+    background-color: #27b390;
+    color: #ffffff;
+}
