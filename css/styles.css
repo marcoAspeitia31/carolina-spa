@@ -1,0 +1,35 @@
+/** Sociales **/
+.social-icons ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.social-icons ul li {
+    position: relative;
+    display: inline-block;
+}
+.social-icons ul li a::before {
+    font-family: 'FontAwesome';
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.4rem;
+    content: '\f08e';
+    -webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+    color: #e082a8;
+}
+.social-icons ul li a[href*="facebook.com"]::before{
+    content: '\f230';
+}
+.social-icons ul li a[href*="twitter.com"]::before{
+    content: '\f081';
+}
+.social-icons ul li a[href*="instagram.com"]::before{
+    content: '\f16d';
+}
+.social-icons ul li a[href*="pinterest.com"]::before{
+    content: '\f0d2';
+}
+.social-icons ul li a[href*="youtube.com"]::before{
+    content: '\f16a';
+}
