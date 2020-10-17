@@ -196,3 +196,9 @@ body{
     font-size: 1.2rem;
     line-height: 2.5rem;
 }
+
+/* Footer */
+.copyright{
+    color: #979797;
+    font-size: .8rem;
+}
