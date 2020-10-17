@@ -100,6 +100,8 @@ body{
 
 }
 .service img:hover{
+    -webkit-transform: scale(1.2) rotate(10deg);
+    -ms-transform: scale(1.2) rotate(10deg);
     transform: scale(1.2) rotate(10deg);
 }
 .service-info{
