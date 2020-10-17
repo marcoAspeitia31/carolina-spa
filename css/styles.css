@@ -1,3 +1,8 @@
+:root{
+    --primary-color: #44f0b6;
+    --secondary-color: #e082a8;
+}
+
 body{
     background-color: #f8f8f8;
 }
@@ -92,17 +97,19 @@ body{
 }
 
 /* Services Front Page */
-.service img{
-    border: .5rem solid #ffffff;
-    -webkit-transition: transform .3s ease;
-    -ms-transition:  transform .3s ease;
-    transition: transform .3s ease;
-
-}
-.service img:hover{
-    -webkit-transform: scale(1.2) rotate(10deg);
-    -ms-transform: scale(1.2) rotate(10deg);
-    transform: scale(1.2) rotate(10deg);
+@media (min-width: 767px){
+    .service img{
+        border: .5rem solid #ffffff;
+        -webkit-transition: transform .3s ease;
+        -ms-transition:  transform .3s ease;
+        transition: transform .3s ease;
+    
+    }
+    .service img:hover{
+        -webkit-transform: scale(1.2) rotate(10deg);
+        -ms-transform: scale(1.2) rotate(10deg);
+        transform: scale(1.2) rotate(10deg);
+    }
 }
 .service-info{
     background-color: #ffffff;
@@ -112,4 +119,39 @@ body{
     border-radius: 0;
     background-color: #e082a8;
     border:none;
+}
+
+/* Schedules */
+.schedules{
+    background-color: #44f0b6;
+    color: #ffffff;
+}
+.schedules h2{
+    font-size: 2.2rem;
+    font-family: 'Lato', sans-serif;
+}
+.schedules .table{
+    border: 2px solid var(--secondary-color);
+    color: #ffffff;
+}
+.schedules .table thead{
+    background-color: var(--secondary-color);
+}
+.schedules .table thead th,
+.schedules .table td{
+    border: none;
+}
+.schedules .table-hover tbody tr:hover{
+    color: #ffffff!important;
+}
+.schedules .table tbody tr td{
+    padding: .35rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+}
+.schedules-image img{
+    display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover
 }
