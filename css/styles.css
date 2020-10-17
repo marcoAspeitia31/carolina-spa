@@ -221,3 +221,13 @@ body{
     line-height: 2.2rem;
     font-family: 'Lato', sans-serif;
 }
+.main-content .modal img{
+    position: relative;
+}
+.main-content .modal .close{
+    position: absolute;
+    z-index: 100;
+    top: 1.2rem;
+    right: 1.5rem;
+    font-size: 2rem;
+}
