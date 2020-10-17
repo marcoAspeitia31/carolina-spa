@@ -253,3 +253,14 @@ aside{
     line-height: 2.2rem;
     font-family: 'Lato', sans-serif;
 }
+/* Service Cupon */
+.cupon{
+    border: 3px dashed #ffffff;
+    font-family: 'Lato', sans-serif;
+}
+.cupon span{
+    font-size: 2.2rem;
+}
+.cupon p{
+    font-size: 1.2rem;
+}
