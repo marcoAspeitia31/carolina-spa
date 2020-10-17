@@ -1,3 +1,23 @@
+:root{
+    --primary-color: #44f0b6;
+    --primary-color-hover: #3bc597;
+    --secondary-color: #db2461;
+}
+
+body{
+    background-color: #f8f8f8;
+}
+.italic-letter{
+    font-size: 2.8rem;
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+    line-height: 2.4rem;
+}
+.italic-letter span{
+    font-size: 4rem;
+    font-family: 'Italianno', cursive;
+    color: var(--secondary-color);
+}
 /** Sociales **/
 .social-icons ul {
     list-style: none;
@@ -16,7 +36,7 @@
     content: '\f08e';
     -webkit-font-smoothing: antialiased;
     font-size: 2rem;
-    color: #e082a8;
+    color: var(--secondary-color);
 }
 .social-icons ul li a[href*="facebook.com"]::before{
     content: '\f230';
@@ -32,4 +52,153 @@
 }
 .social-icons ul li a[href*="youtube.com"]::before{
     content: '\f16a';
+}
+
+/* Navigation Menu */
+.navigation{
+    background-color: var(--primary-color);
+    margin: 0 -15px;
+}
+
+.navbar-light .navbar-toggler{
+    background-color: #ffffff;
+}
+.navbar-light .navbar-brand:hover{
+    color: #ffffff;
+}
+.main-nav{
+    background-image: url(../img/border_horizontal.png), url(../img/border_horizontal.png);
+    background-repeat: repeat-x;
+    background-position: 0 top, 0 bottom;
+}
+.nav-link{
+    color: #ffffff;
+    font-size: 1.4rem;
+    transition: background-color .3s ease-in-out;
+    font-family: 'Raleway', sans-serif;
+}
+.nav-link:hover{
+    background-color: var(--primary-color-hover);
+    color: #ffffff;
+}
+
+/* Carousel */
+.banner .carousel{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.carousel-caption h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+/* Website Section */
+.welcome-frase p{
+    font-family: 'Lato', sans-serif;
+    color: #979797;
+    font-size: 1.6rem;
+}
+
+/* Services Front Page */
+@media (min-width: 767px){
+    .service img{
+        border: .5rem solid var(--secondary-color);
+        -webkit-transition: transform .3s ease;
+        -ms-transition:  transform .3s ease;
+        transition: transform .3s ease;
+    
+    }
+    .service img:hover{
+        -webkit-transform: scale(1.2) rotate(10deg);
+        -ms-transform: scale(1.2) rotate(10deg);
+        transform: scale(1.2) rotate(10deg);
+    }
+}
+.service-info{
+    background-color: #ffffff;
+    margin-top: -5rem;
+}
+.service-info .btn-primary{
+    border-radius: 0;
+    background-color: var(--secondary-color);
+    border:none;
+}
+
+/* Schedules */
+.schedules{
+    background-color: #44f0b6;
+}
+.schedules h2{
+    font-size: 2.2rem;
+    font-family: 'Lato', sans-serif;
+}
+.schedules .table{
+    border: 2px solid var(--secondary-color);
+}
+.schedules .table thead{
+    background-color: var(--secondary-color);
+}
+.schedules .table thead th,
+.schedules .table td{
+    border: none;
+}
+.schedules .table-hover tbody tr:hover{
+    color: #ffffff!important;
+}
+.schedules .table tbody tr td{
+    padding: .35rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+}
+.schedules-image img{
+    display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+}
+
+/* Products */
+.products .card .card-title{
+    color: var(--secondary-color);
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+}
+.products .card .card-text{
+    font-size: .8rem;
+}
+.products .card .product-pricing{
+    font-size: 1.6rem;
+    color: #979797;
+}
+
+/* Booking */
+.booking{
+    background-image: url(../img/bg_citas.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.booking h3{
+    font-family: 'Lato', sans-serif;
+}
+.booking .btn-primary{
+    background-color: var(--primary-color);
+    border-radius: 0;
+    border: 0;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    padding: 1rem 5rem;
+}
+.booking p{
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+
+/* Footer */
+.copyright{
+    color: #979797;
+    font-size: .8rem;
 }
