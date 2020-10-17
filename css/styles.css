@@ -94,6 +94,13 @@ body{
 /* Services Front Page */
 .service img{
     border: .5rem solid #ffffff;
+    -webkit-transition: transform .3s ease;
+    -ms-transition:  transform .3s ease;
+    transition: transform .3s ease;
+
+}
+.service img:hover{
+    transform: scale(1.2) rotate(10deg);
 }
 .service-info{
     background-color: #ffffff;
