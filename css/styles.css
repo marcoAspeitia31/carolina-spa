@@ -237,3 +237,19 @@ aside{
     background-color: var(--primary-color);
 }
 /* Services accordion */
+#services-accordion .card a{
+    background-color: var(--secondary-color);
+}
+#services-accordion .card a:hover{
+    color: #ffffff!important;
+    text-decoration: none;
+}
+#services-accordion .card a h3{
+    font-size: 1.6rem;
+    font-family: 'Lato', sans-serif;
+}
+#services-accordion p{
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    font-family: 'Lato', sans-serif;
+}
