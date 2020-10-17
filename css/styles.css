@@ -84,6 +84,10 @@ body{
 }
 
 /* Carousel */
+.banner .carousel{
+    margin-right: -15px;
+    margin-left: -15px;
+}
 .carousel-caption h3{
     font-family: 'Raleway', sans-serif;
     font-size: 2rem;
