@@ -80,7 +80,7 @@
                             <a href="productos.html" class="nav-link">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">Contacto</a>
+                            <a href="contacto.html" class="nav-link">Contacto</a>
                         </li>
                     </ul>
                 </div><!-- navbar-collapse end -->
@@ -95,9 +95,9 @@
     <div class="container pt-4">
         <div class="row no-gutters">
             <div class="col-12 hero">
-                <img src="img/producto_01.jpg" alt="" class="img-fluid">
+                <img src="img/contacto.jpg" alt="" class="img-fluid">
                 <h2 class="d-none d-md-block text-uppercase py-3 px-5 text-light">
-                    Producto 1
+                    Contacto
                 </h2>
             </div>
         </div>
@@ -105,32 +105,28 @@
 
     <!-- General Info -->
     <div class="container pt-4">
-        <div class="row no-gutters">
+        <div class="row justify-content-center">
             <main class="col-lg-8 main-content">
                 <h2 class="d-block d-md-none text-uppercase text-center">
-                    Producto 1
+                    Contacto
                 </h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem quam eaque quibusdam aliquid dolore,
-                    nisi libero accusamus architecto officia qui sint quo assumenda, ea aspernatur facilis numquam,
-                    itaque cumque neque!</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem quam eaque quibusdam aliquid dolore,
-                    nisi libero accusamus architecto officia qui sint quo assumenda, ea aspernatur facilis numquam,
-                    itaque cumque neque!</p>
+                <form class="p-5 mt-5 contact-form bg-white">
+                    <div class="form-group">
+                        <label for="nameInput">Nombre:</label>
+                        <input type="text" class="form-control" id="nameInput" placeholder="Escribe tu nombre">
+                        <label for="emailInput">Email:</label>
+                        <input type="email" class="form-control" id="emailInput" placeholder="Escribe tu email">
+                        <label for="subjectInput">Asunto:</label>
+                        <input type="text" class="form-control" id="subjectInput"
+                            placeholder="Escribe el asunto del mensaje">
+                        <label for="messageInput">Mensaje:</label>
+                        <textarea class="form-control" id="messageInput" rows="5"></textarea>
+                        <small id="emailHelp" class="form-text text-muted">Tus datos están seguros y no compartiremos
+                            ningún dato proporcionado.</small>
+                    </div>
+                    <input type="submit" class="btn btn-primary text-uppercase" value="Enviar">
+                </form>
             </main>
-            <aside class="col-lg-4 py-md-4 py-md-0 text-light">
-                <div class="sidebar py-5 px-3">
-                    <h2 class="text-center text-uppercase mt-4 font-weight-bold">
-                        Descripción
-                    </h2>
-                    <p class="text-center lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero molestiae
-                        rem
-                        quos placeat ex.</p>
-                    <h3 class="text-uppercase text-center mt-2 font-weight-bold mt-5">
-                        Precio
-                    </h3>
-                    <p class="text-center display-4">$ 25.00</p>
-                </div>
-            </aside>
         </div>
     </div>
 
